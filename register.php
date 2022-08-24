@@ -9,16 +9,16 @@ include("functions.php");
 if(isset($_POST["signup"]))
 { 
 	//something was posted
-    $jamb_reg_no = $_POST['jamb_reg_no'];
+    $jamb_matric_no = $_POST['jamb_matric_no'];
 	$password = $_POST['password'];
 	$confirm_password = $_POST['confirm_password'];
     echo "Please enter some valid information!";
-	if(!empty($jamb_reg_no) && !empty($password) && !empty($confirm_password) && !is_numeric($jamb_reg_no))
+	if(!empty($jamb_matric_no) && !empty($password) && !empty($confirm_password) && !is_numeric($jamb_matric_no))
 	{
        
 	    //save to database
 	    $user_id = random_num(20);
-		$query = "insert into register (user_id,jamb_reg_no,password,confirm_password) values ('$user_id','$jamb_reg_no','$password','$confirm_password')";
+		$query = "insert into register (user_id,jamb_matric_no,password,confirm_password) values ('$user_id','$jamb_matric_no','$password','$confirm_password')";
 
 		$result=mysqli_query($con, $query);
         if($result){
