@@ -1,3 +1,41 @@
+<?php
+ 
+session_start();
+
+include("connections.php");
+include("functions.php");
+
+
+if(isset($_POST["signup"]))
+{ 
+	//something was posted
+    $jamb_matric_no = $_POST['jamb_matric_no'];
+	$password = $_POST['password'];
+	$confirm_password = $_POST['confirm_password'];
+    echo "Please enter some valid information!";
+	if(!empty($jamb_matric_no) && !empty($password) && !empty($confirm_password) && !is_numeric($jamb_matric_no))
+	{
+       
+	    //save to database
+	    $user_id = random_num(20);
+		$query = "insert into register (user_id,jamb_matric_no,password,confirm_password) values ('$user_id','$jamb_matric_no','$password','$confirm_password')";
+
+		$result=mysqli_query($con, $query);
+        if($result){
+        
+		header("Location: login.php");
+		die;
+        }else{
+            echo "Login Failed";
+        }
+	}else
+	{
+		echo "Please enter some valid information!";
+	}
+ }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
