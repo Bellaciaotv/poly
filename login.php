@@ -6,28 +6,22 @@ session_start();
 	include("functions.php");
 
 
-	if($_SERVER['REQUEST_METHOD'] == "POST")
+	if(isset($_POST["signin"]))
 	{
 		//something was posted
 		$jamb_matric_no = $_POST['jamb_matric_no'];
-		$password = $_POST['password'];
+		$pass = $_POST['password'];
 
-		if(!empty($jamb_matric_no) && !empty($password) && !is_numeric($jamb_matric_no))
-		{
+
 			//read from database
-			 $query = "select * from users where  jamb_matric_no= '$jamb_matric_no' and password='$password' ";
+			 $query = "select * from register where jamb_matric_no = '$jamb_matric_no' and password = '$pass'";
 			$result = mysqli_query($con, $query);
 
-			if($result)
-			{
 				if($result && mysqli_num_rows($result))
 				{
-				
-
-					
 					$user_data = mysqli_fetch_assoc($result);
 					
-					if($user_data['password'] != $password)
+					if($user_data['password'] != $pass)
 					{
 						echo "Wrong Matric No or password!";
 						header("Location: index.php?error= Access Denied");
@@ -37,15 +31,14 @@ session_start();
 						$_SESSION['user_id'] = $user_data['user_id'];
 						header("Location: blank.php");
 					}
+				}else{
+					echo "Wrong Matric No or password!";
 				}
-			}
 			
 			
-		}else
-		{
-			echo "Wrong Jamb NO or password!";
-		}
+		
 	}
+
 
 ?>
 
