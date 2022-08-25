@@ -647,7 +647,33 @@ include "header.php";
                                             <label class="col-md-6 col-xs-12 control-label">SUBJECT</label>
                                             <div class="col-md-6 col-xs-12"> 
                                             <select class="form-control select" required>
-
+						<option>ENGLISH LANGUAGE</option>
+                                                <option>BIOLOGY</option>
+                                                <option>CHEMISTRY</option>
+                                                <option>AGRICULTURE</option>
+                                                <option>PHYSICS</option>
+                                                <option>CIVIC EDUCATION</option>
+                                                <option>MATHEMATICS</option>
+                                                <option>GEOGRAPHY</option>
+                                                <option>ECONOMICS</option>
+                                                <option>COMPUTER</option>
+                                                <option>FISHERIES</option>
+                                                <option>CHRISTAIN RELIGIOUS STUDIES</option>
+                                                <option>ISLAMIC RELIGIOUS STUDIES</option>
+                                                <option>ACCOUNTING</option>
+                                                <option>COMMERCE</option>
+                                                <option>TOURISM</option>
+                                                <option>LITERATURE IN ENGLISH</option>
+                                                <option>CATERING CRAFT PRACTICE</option>
+                                                <option>FOOD AND NUTRITION</option>
+                                                <option>FRENCH</option>
+                                                <option>HISTORY</option>
+                                                <option>GOVERNMENT</option>
+                                                <option>FINE ART</option>
+                                                <option>HAUSA LANGUAGE</option>
+                                                <option>IGBO LANGUAGE</option>
+                                                <option>YORUBA LANGUAGE</option>
+                                                <option>ARABIC</option>
                                             </select>
                                             </div>
                                         </div>
@@ -673,7 +699,33 @@ include "header.php";
                                             <label class="col-md-6 col-xs-12 control-label">SUBJECT</label>
                                             <div class="col-md-6 col-xs-12"> 
                                             <select class="form-control select" required>
-
+						<option>ENGLISH LANGUAGE</option>
+                                                <option>BIOLOGY</option>
+                                                <option>CHEMISTRY</option>
+                                                <option>AGRICULTURE</option>
+                                                <option>PHYSICS</option>
+                                                <option>CIVIC EDUCATION</option>
+                                                <option>MATHEMATICS</option>
+                                                <option>GEOGRAPHY</option>
+                                                <option>ECONOMICS</option>
+                                                <option>COMPUTER</option>
+                                                <option>FISHERIES</option>
+                                                <option>CHRISTAIN RELIGIOUS STUDIES</option>
+                                                <option>ISLAMIC RELIGIOUS STUDIES</option>
+                                                <option>ACCOUNTING</option>
+                                                <option>COMMERCE</option>
+                                                <option>TOURISM</option>
+                                                <option>LITERATURE IN ENGLISH</option>
+                                                <option>CATERING CRAFT PRACTICE</option>
+                                                <option>FOOD AND NUTRITION</option>
+                                                <option>FRENCH</option>
+                                                <option>HISTORY</option>
+                                                <option>GOVERNMENT</option>
+                                                <option>FINE ART</option>
+                                                <option>HAUSA LANGUAGE</option>
+                                                <option>IGBO LANGUAGE</option>
+                                                <option>YORUBA LANGUAGE</option>
+                                                <option>ARABIC</option>
                                             </select>
                                             </div>
                                         </div>
@@ -734,7 +786,33 @@ include "header.php";
                                             <label class="col-md-6 col-xs-12 control-label">SUBJECT</label>
                                             <div class="col-md-6 col-xs-12"> 
                                             <select class="form-control select" required>
-
+						<option>ENGLISH LANGUAGE</option>
+                                                <option>BIOLOGY</option>
+                                                <option>CHEMISTRY</option>
+                                                <option>AGRICULTURE</option>
+                                                <option>PHYSICS</option>
+                                                <option>CIVIC EDUCATION</option>
+                                                <option>MATHEMATICS</option>
+                                                <option>GEOGRAPHY</option>
+                                                <option>ECONOMICS</option>
+                                                <option>COMPUTER</option>
+                                                <option>FISHERIES</option>
+                                                <option>CHRISTAIN RELIGIOUS STUDIES</option>
+                                                <option>ISLAMIC RELIGIOUS STUDIES</option>
+                                                <option>ACCOUNTING</option>
+                                                <option>COMMERCE</option>
+                                                <option>TOURISM</option>
+                                                <option>LITERATURE IN ENGLISH</option>
+                                                <option>CATERING CRAFT PRACTICE</option>
+                                                <option>FOOD AND NUTRITION</option>
+                                                <option>FRENCH</option>
+                                                <option>HISTORY</option>
+                                                <option>GOVERNMENT</option>
+                                                <option>FINE ART</option>
+                                                <option>HAUSA LANGUAGE</option>
+                                                <option>IGBO LANGUAGE</option>
+                                                <option>YORUBA LANGUAGE</option>
+                                                <option>ARABIC</option>
                                             </select>
                                             </div>
                                         </div>
