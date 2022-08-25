@@ -578,7 +578,15 @@ include "header.php";
                                             <label class="col-md-6 col-xs-12 control-label">GRADE</label>
                                             <div class="col-md-6 col-xs-12">
                                             <select class="form-control select" required>
-
+						<option>A1</option>
+                                                <option>B2</option>
+                                                <option>B3</option>
+                                                <option>C4</option>
+                                                <option>C5</option>
+                                                <option>C6</option>
+                                                <option>D7</option>
+                                                <option>E8</option>
+                                                <option>F9</option>
                                             </select>
                                             </div>
                                         </div>
@@ -596,7 +604,15 @@ include "header.php";
                                             <label class="col-md-6 col-xs-12 control-label">GRADE</label>
                                             <div class="col-md-6 col-xs-12">
                                             <select class="form-control select" required>
-                                                
+                                                <option>A1</option>
+                                                <option>B2</option>
+                                                <option>B3</option>
+                                                <option>C4</option>
+                                                <option>C5</option>
+                                                <option>C6</option>
+                                                <option>D7</option>
+                                                <option>E8</option>
+                                                <option>F9</option>
                                             </select>
                                             </div>
                                         </div>
@@ -614,7 +630,15 @@ include "header.php";
                                             <label class="col-md-6 col-xs-12 control-label">GRADE</label>
                                             <div class="col-md-6 col-xs-12">
                                             <select class="form-control select" required>
-                                                
+                                                <option>A1</option>
+                                                <option>B2</option>
+                                                <option>B3</option>
+                                                <option>C4</option>
+                                                <option>C5</option>
+                                                <option>C6</option>
+                                                <option>D7</option>
+                                                <option>E8</option>
+                                                <option>F9</option>
                                             </select>
                                             </div>
                                         </div>
@@ -632,7 +656,15 @@ include "header.php";
                                             <label class="col-md-6 col-xs-12 control-label">GRADE</label>
                                             <div class="col-md-6 col-xs-12">
                                             <select class="form-control select" required>
-                                                
+                                                <option>A1</option>
+                                                <option>B2</option>
+                                                <option>B3</option>
+                                                <option>C4</option>
+                                                <option>C5</option>
+                                                <option>C6</option>
+                                                <option>D7</option>
+                                                <option>E8</option>
+                                                <option>F9</option>
                                             </select>
                                             </div>
                                         </div>
@@ -650,7 +682,15 @@ include "header.php";
                                             <label class="col-md-6 col-xs-12 control-label">GRADE</label>
                                             <div class="col-md-6 col-xs-12">
                                             <select class="form-control select" required>
-                                                
+                                                <option>A1</option>
+                                                <option>B2</option>
+                                                <option>B3</option>
+                                                <option>C4</option>
+                                                <option>C5</option>
+                                                <option>C6</option>
+                                                <option>D7</option>
+                                                <option>E8</option>
+                                                <option>F9</option>
                                             </select>
                                             </div>
                                         </div>
