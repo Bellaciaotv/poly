@@ -75,7 +75,7 @@ if(isset($_POST["signup"]))
 			
 									<div class="form-group">
 										<label for="name">Jamb Reg No</label>
-										<input type="num" class="form-control" id="reg no" name="jamb_reg_no" placeholder="Jamb Reg No" required="" autofocus="">
+										<input type="num" class="form-control" id="reg no" name="jamb_matric_no" placeholder="Jamb Reg No" required="" autofocus="">
 									</div>
 
 									<div class="form-row">
