@@ -1100,22 +1100,48 @@ include "header.php";
                                     </div>    
 
 
-                                    <!-- Tab sixth content -->
+                                     <!-- Tab sixth content -->
                                     <div class="tab-pane" id="tab-sixth">
-
+                                    <form method="POST" action="" enctype="multipart/form-data">
                                         <div class="form-group">
                                             <label class="col-md-6 col-xs-12 control-label">PASSPORT</label>
                                             <div class="col-md-6 col-xs-12">                                 
 
-                                            <input type="file" id="myfile" name="myfile">
+                                            <div id="content">
+		                                        <form method="POST" action="" enctype="multipart/form-data">
+			                                        <div class="form-group">
+				                                        <input class="form-control" type="file" name="uploadfile" value="" />
+			                                        </div>
+			                                        <div class="form-group">
+				                                        <button class="btn btn-primary" type="submit" name="upload">UPLOAD</button>
+			                                        </div>
+		                                        </form>
+	                                        </div>
+                                            <div id="display-image">
+		                                        <?php
+		                                        $query = " select * from image ";
+		                                        $result = mysqli_query($db, $query);
+
+		                                            while ($data = mysqli_fetch_assoc($result)) {
+		                                        ?>
+			                                        <img src="./image/<?php echo $data['filename']; ?>">
+
+		                                        <?php
+                                                }
+                                                 ?>
+                                            </div>
 
                                             <h5>To upload your passport, scan and save the passport in the computer file system, Click on the box shown above to display the file dialog box. Select the passport file from the saved location.</h5>
 
                                             <h6 style="color: black; font-family: sans-serif; font-size: 15px;">Please note that the passport photo background should be plain (white and clear) and passport size should not be more than 50kb. The file format must be either .gif, .jpg, .jpeg, or .bmp file format.</h6>
                                             </div>
                                         </div>
-
+                                        <div class="panel-footer">                                                                        
+                                                 <button class="btn btn-primary pull-right" name="submitpassport">Save Changes <span class="fa fa-floppy-o fa-right"></span></button>
+                                            </div>
+                                    `   </form>
                                     </div>
+
 
 
                                     <!-- Tab seventh content -->
